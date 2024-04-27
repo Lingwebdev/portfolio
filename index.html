@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="js/script.js" defer></script>
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <header>
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active-link" id="home-active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="about-active">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link" id="contact-active">Contact</a>
+        </li>
+        <li class="nav-item">
+          <i class="fa-solid fa-sun change-theme"></i>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="showcase container" id="home">
+        <div class="profile"></div>
+        <div class="introduction">
+          <h1 class="name"><span class="second-color">Ling</span> Yafei</h1>
+          <h2>Web Developer, Programmer</h2>
+          <div>
+            <a href="#">
+              <i class="fa-brands fa-weixin home-icon"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-github home-icon"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-file-pdf home-icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about container" id="about">
+        <h2 class="title">About</h2>
+        <div class="grid">
+          <div class="bio">
+            <h3>BIO</h3>
+            <p class="text">
+              Hi, there. My name is Ling Yafei. I am a self-taught web
+              developer. I hold a Master's degree in Computer Science and
+              Technology from AnHui University. I am passionate about writing
+              clean, efficient code and staying updated with the latest industry
+              trends. Also I enjoy team working and highly value the
+              contribution of each individual. In my free time, I like hiking,
+              reading, and experimenting with new coding techniques. Seeking an
+              entry-level position that provides opportunities for growth and
+              development.
+            </p>
+          </div>
+
+          <div class="Skills">
+            <h3>SKILLS</h3>
+            <div class="skills-container grid">
+              <div class="skill-items">
+                <div class="upper-part">
+                  <i class="fa-brands fa-html5"></i>
+                  <p>HTML</p>
+                  <p class="percentage">85%</p>
+                </div>
+                <div class="bar html-bar"></div>
+              </div>
+              <div class="skill-items">
+                <div class="upper-part">
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <p>CSS</p>
+                  <p class="percentage">80%</p>
+                </div>
+                <div class="bar css-bar"></div>
+              </div>
+              <div class="skill-items">
+                <div class="upper-part">
+                  <i class="fa-brands fa-js"></i>
+                  <p>JAVASCRIPT</p>
+                  <p class="percentage">80%</p>
+                </div>
+                <div class="bar js-bar"></div>
+              </div>
+              <div class="skill-items">
+                <div class="upper-part">
+                  <i class="fa-brands fa-react"></i>
+                  <p>REACT</p>
+                  <p class="percentage">80%</p>
+                </div>
+                <div class="bar react-bar"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects">
+            <h3>PROJECTS</h3>
+            <div class="projects-grid grid">
+              <div class="project flex-column">
+                <h4>A Personal Portfolio</h4>
+                <p>
+                  It is a simple webpage with mobile responsiveness. It also has
+                  a dark mode and light mode toggle feature. The code is written
+                  using simple Sass. The main layout is using flex and grid. It
+                  is also responsive with the mobile screen scrolling.
+                </p>
+                <div class="github">
+                  <a href="#">Github<i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+
+              <div class="project flex-column">
+                <h4>Microsoft Homepage Clone</h4>
+                <p>
+                  The code is written using simple CSS classes. It is a static
+                  webpage with little animation involved. Similarly, it mainly
+                  uses flex and grid layout. It is also fully responsive, and
+                  has a toggle menu for small devices.
+                </p>
+                <div class="github">
+                  <a href="#">Github<i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+
+              <div class="project flex-column">
+                <h4>Todo List</h4>
+                <p>
+                  This is a Javascript project mainly focuses on its
+                  functionality, and using Bootstrap library to style the user
+                  interface. The application is a CRUD application, which means
+                  it provides means to create, read, update and detete items as
+                  needed.
+                </p>
+                <div class="github">
+                  <a href="#">Github<i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="contact container" id="contact">
+      <h2>Contact</h2>
+      <p class="main-text">Please don't hesitate to contact me</p>
+      <div class="methods flex-column">
+        <div class="phone method">
+          <i class="fa-solid fa-phone"></i> 136-3709-3273
+        </div>
+        <div class="email method">
+          <i class="fa-regular fa-envelope"></i> 501860369@qq.com
+        </div>
+        <div class="address method">
+          <i class="fa-solid fa-location-dot"></i> Hefei Anhui Province
+        </div>
+      </div>
+    </section>
+
+    <footer>Copyright &copy; 2024</footer>
+  </body>
+</html>
